@@ -1,0 +1,57 @@
+1. Remoção do uso de SQL/DAO em data.Pessoa
+import dao.ConexaoDAO;
+import dao.PessoaDAO;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.swing.JOptionPane;
+
+2. Remoção da função mostDados em data.Tarefa
+public void mostDados() {
+        System.out.println("Título: " + titulo);
+        System.out.println("Descrição: " + descricao);
+        System.out.println("Data de término: " + data);
+        System.out.println("Concluído? " + concluido);
+        System.out.println("Feedback: " + feedback);
+}
+
+3. Adição de uma nova classe (DAOException)
+package dao;
+
+public class DAOException extends RuntimeException {
+    public DAOException(String mensagem, Throwable causa) {
+        super(mensagem, causa);
+    }
+}
+
+4. Remoção de todos as funções Swing nos arquivos DAO
+JOptionPane.showMessageDialog(null, "Erro ao buscar usuário por email: " + sqle.getMessage());
+throw new DAOException("Erro ao buscar usuário por email", sqle);
+
+5. Mudança na estrutura
+src/
+ dao/
+ data/
+ logos/
+ view/
+
+para
+
+src/
+ main/
+  java/
+   data/
+   dao/
+    impl/
+   service/
+   util/
+   view/
+ test/
+
+6. Mudança na localização dos arquivos e funções
+src/dao/ConexaoDAO.java -> src/main/java/util/ConexaoManager.java
+src/dao/ForumPostDAO.java -> src/main/java/dao/impl/IForumPostDAO.java
+
+
