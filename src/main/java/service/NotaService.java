@@ -19,4 +19,24 @@ public class NotaService {
             throw new ServiceException("Erro ao listar notas do aluno", daoe);
         }
     }
+    
+    public double calcularMediaDoAluno(int alunoId) throws ServiceException {
+        try {
+            List<Nota> notas = notaDAO.listarPorAluno(alunoId);
+            
+            if (notas.isEmpty()) {
+                return 0.0;
+            }
+            
+            double soma = 0.0;
+            
+            for (Nota nota : notas) {
+                soma += nota.getValor();
+            }
+            
+            return soma / notas.size();
+        } catch (DAOException daoe) {
+            throw new ServiceException("Erro ao calcular média do aluno", daoe);
+        }
+    }
 }

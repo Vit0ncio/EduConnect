@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="DESKTOP-609AN7M" name="service.NotaServiceTest" skipped="0" tests="1" time="0.0" timestamp="2025-09-30T13:10:58">
+  <properties>
+    <property name="java.specification.version" value="24" />
+    <property name="ant.project.name" value="EduConnect" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="http://www.azul.com/" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner service.NotaServiceTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\Users\os2ne\Documents\Códigos\educonnect\build\test\results\TEST-service.NotaServiceTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\os2ne\Documents\Códigos\educonnect\build\test\results\TEST-service.NotaServiceTest.xml crashfile=C:\Users\os2ne\Documents\Códigos\educonnect\junitvmwatcher10724968388533442244.properties propsfile=C:\Users\os2ne\Documents\Códigos\educonnect\junit5788810863920906196.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2025-04-15" />
+    <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk" />
+    <property name="netbeans.user" value="C:\Users\os2ne\AppData\Roaming\NetBeans\26" />
+    <property name="basedir" value="C:\Users\os2ne\Documents\Códigos\educonnect" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="jna.boot.library.name" value="jnidispatch-nb" />
+    <property name="netbeans.productversion" value="Apache NetBeans IDE 26" />
+    <property name="org.apache.commons.logging.LogFactory" value="org.apache.commons.logging.impl.LogFactoryImpl" />
+    <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
+    <property name="user.script" value="" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\os2ne\AppData\Roaming\NetBeans" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="jdk.home" value="C:\Program Files\Apache NetBeans\jdk" />
+    <property name="java.runtime.version" value="24.0.1+9" />
+    <property name="user.name" value="os2ne" />
+    <property name="nb.internal.action.name" value="test" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="guice.disable.misplaced.annotation.check" value="true" />
+    <property name="java.vendor.version" value="Zulu24.30+11-CA" />
+    <property name="apple.awt.application.appearance" value="system" />
+    <property name="dist.dir" value="C:\Users\os2ne\Documents\Códigos\educonnect\dist" />
+    <property name="test.reports.dir" value="C:\Users\os2ne\Documents\Códigos\educonnect\build\test\results" />
+    <property name="build.dir" value="C:\Users\os2ne\Documents\Códigos\educonnect\build" />
+    <property name="java.lang.Runtime.level" value="FINE" />
+    <property name="jna.loaded" value="true" />
+    <property name="java.io.tmpdir" value="C:\Users\os2ne\AppData\Local\Temp\" />
+    <property name="java.version" value="24.0.1" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="ant.home" value="C:\Program Files\Apache NetBeans\extide\ant" />
+    <property name="lib.dir" value="C:\Users\os2ne\Documents\Códigos\educonnect\lib" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="native.encoding" value="Cp1252" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.14 compiled on August 16 2023" />
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\msys64\ucrt64\bin;C:\Users\os2ne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\os2ne\AppData\Local\Programs\Pulsar\resources;C:\Users\os2ne\AppData\Local\Programs\Pulsar\resources\app\ppm\bin;C:\Users\os2ne\AppData\Roaming\npm;." />
+    <property name="stderr.encoding" value="Cp1252" />
+    <property name="java.vendor" value="Azul Systems, Inc." />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="netbeans.dirs" value="C:\Program Files\Apache NetBeans\nb;C:\Program Files\Apache NetBeans\ergonomics;C:\Program Files\Apache NetBeans\ide;C:\Program Files\Apache NetBeans\extide;C:\Program Files\Apache NetBeans\java;C:\Program Files\Apache NetBeans\apisupport;C:\Program Files\Apache NetBeans\webcommon;C:\Program Files\Apache NetBeans\websvccommon;C:\Program Files\Apache NetBeans\enterprise;C:\Program Files\Apache NetBeans\mobility;C:\Program Files\Apache NetBeans\profiler;C:\Program Files\Apache NetBeans\python;C:\Program Files\Apache NetBeans\php;C:\Program Files\Apache NetBeans\identity;C:\Program Files\Apache NetBeans\harness;C:\Program Files\Apache NetBeans\cnd;C:\Program Files\Apache NetBeans\cndext;C:\Program Files\Apache NetBeans\cpplite;C:\Program Files\Apache NetBeans\dlight;C:\Program Files\Apache NetBeans\groovy;C:\Program Files\Apache NetBeans\extra;C:\Program Files\Apache NetBeans\javacard;C:\Program Files\Apache NetBeans\javafx;C:\Program Files\Apache NetBeans\rust" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\Apache NetBeans\platform\core\asm-9.8.jar;C:\Program Files\Apache NetBeans\platform\core\asm-commons-9.8.jar;C:\Program Files\Apache NetBeans\platform\core\asm-tree-9.8.jar;C:\Program Files\Apache NetBeans\platform\core\core-base.jar;C:\Program Files\Apache NetBeans\platform\core\core.jar;C:\Program Files\Apache NetBeans\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\Apache NetBeans\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\Apache NetBeans\platform\core\org-openide-filesystems.jar;C:\Program Files\Apache NetBeans\nb\core\org-netbeans-upgrader.jar;C:\Program Files\Apache NetBeans\nb\core\locale\core_nb.jar" />
+    <property name="flatlaf.nativeLibraryPath" value="system" />
+    <property name="netbeans.autoupdate.country" value="BR" />
+    <property name="nb.wait.for.caches" value="true" />
+    <property name="truffle.UseFallbackRuntime" value="true" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="test.src.dir" value="C:\Users\os2ne\Documents\Códigos\educonnect\test\main\test" />
+    <property name="java.class.path" value="C:\Users\os2ne\Documents\Códigos\educonnect\build\classes;C:\Users\os2ne\Documents\Códigos\educonnect\build\test\classes;C:\Users\os2ne\Documents\Códigos\educonnect\lib\hamcrest-core-1.3.jar;C:\Users\os2ne\Documents\Códigos\educonnect\lib\junit-4.13.2.jar;C:\Users\os2ne\Documents\Códigos\educonnect\lib\mysql-connector-j-9.2.0.jar;C:\Program Files\Apache NetBeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\Apache NetBeans\extide\ant\lib\ant.jar;C:\Program Files\Apache NetBeans\extide\ant\lib\ant-junit.jar;C:\Program Files\Apache NetBeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.vendor" value="Azul Systems, Inc." />
+    <property name="test.build.dir" value="C:\Users\os2ne\Documents\Códigos\educonnect\build\test\classes" />
+    <property name="user.variant" value="" />
+    <property name="netbeans.buildnumber" value="26-81d21190648c8a1bae92bc9cdb0bb9783ae4912f" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="user.timezone" value="America/Sao_Paulo" />
+    <property name="java.vm.specification.version" value="24" />
+    <property name="os.name" value="Windows 11" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="user.country" value="BR" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="test.dir" value="C:\Users\os2ne\Documents\Códigos\educonnect\test" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\os2ne" />
+    <property name="user.language" value="pt" />
+    <property name="maven.defaultProjectBuilder.disableGlobalModelCache" value="true" />
+    <property name="flatlaf.updateUIOnSystemFontChange" value="false" />
+    <property name="ant.java.version" value="24" />
+    <property name="ant.file.EduConnect" value="C:\Users\os2ne\Documents\Códigos\educonnect\build.xml" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="plugin.manager.check.updates" value="false" />
+    <property name="netbeans.autoupdate.language" value="pt" />
+    <property name="polyglot.engine.WarnInterpreterOnly" value="false" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="ant.file" value="C:\Users\os2ne\Documents\Códigos\educonnect\build.xml" />
+    <property name="netbeans.hash.code" value="unique=00fefd3e3-28b2-4a24-8456-9bb19d6d5bf9_60ddb56e-b124-4644-a208-ae975ac79b7a" />
+    <property name="stdout.encoding" value="Cp1252" />
+    <property name="path.separator" value=";" />
+    <property name="jna.nosys" value="false" />
+    <property name="os.version" value="10.0" />
+    <property name="netbeans.home" value="C:\Program Files\Apache NetBeans\platform" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\Program Files\Apache NetBeans\extide\ant\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/" />
+    <property name="ant.file.type.EduConnect" value="file" />
+    <property name="user.dir" value="C:\Program Files\Apache NetBeans\bin" />
+    <property name="os.arch" value="amd64" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="24.0.1+9" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="org.apache.commons.logging.Log" value="org.apache.commons.logging.impl.Jdk14Logger" />
+    <property name="java.class.version" value="68.0" />
+    <property name="src.dir" value="C:\Users\os2ne\Documents\Códigos\educonnect\src" />
+    <property name="org.netbeans.io.suspend" value="0" />
+    <property name="ant.project.default-target" value="default" />
+  </properties>
+  <error message="service.NotaServiceTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: service.NotaServiceTest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:543)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -3,18 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/view/TelaEsqueceuSenha.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/view/TelaTarefas.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/dao/impl/NotaDAOJdbc.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/MainApp.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/dao/IForumDAO.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/dao/impl/ForumDAOJdbc.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/dao/IForumPostDAO.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/dao/impl/ForumPostDAOJdbc.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/view/TelaCursos.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/view/TelaForum.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/view/CustomComponents.java</file>
-            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/src/main/java/view/TelaCadastro.java</file>
+            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/test/main/test/util/TesteBasico.java</file>
+            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/test/main/test/util/ValidacaoUtil.java</file>
+            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/test/main/test/dao/NotaDAOMock.java</file>
+            <file>file:/C:/Users/os2ne/Documents/Códigos/educonnect/test/main/test/service/ForumServiceTest.java</file>
         </group>
     </open-files>
 </project-private>
