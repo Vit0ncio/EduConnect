@@ -1,7 +1,11 @@
 # **EduConnect - Sistema de Gestão Educacional**
 
+Um programa desktop de ensino feito de forma EAD (Ensino a Distancia).  
+Foi feito como projeto final no curso tecnico de ADS no Senac EAD.  
+
 ## **Status do Projeto**
-**Abandonado!**
+**Abandonado!**  
+Nao tenho tempo nem interesse de continuar com o projeto, portanto nao fazia mais sentido continuar ele.  
 
 ## **Tecnologias Utilizadas**
 - **Linguagem**: Java (JDK 17+)
