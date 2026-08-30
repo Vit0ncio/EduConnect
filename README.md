@@ -1,7 +1,7 @@
 # **EduConnect - Sistema de Gestão Educacional**
 
 ## **Status do Projeto**
-🚧 **Em desenvolvimento** 🚧
+**Abandonado!**
 
 ## **Tecnologias Utilizadas**
 - **Linguagem**: Java (JDK 17+)
